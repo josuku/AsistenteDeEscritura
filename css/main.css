@@ -1,0 +1,72 @@
+h1 {
+   font-size: 15em !important;
+}
+
+h3 {
+   font-size: 3em !important;
+}
+
+@media only screen and (max-width: 480px) {
+   h2 {
+      font-size: 20px !important;
+   }
+}
+
+.vertical-align {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: row;
+}
+
+#parteSuperior {
+   position: absolute;
+   background-color: #BEB9B5;
+   height: 75%;
+   width: 100%;
+}
+
+#celdaLetra, #celdaBorrar {
+   text-align: center;
+   vertical-align: center;
+}
+
+#celdaLetra {
+   position: absolute;
+   left: 0;
+   width: 70%;
+   height: 100%;
+   background-color: #96C0CE;
+}
+
+#celdaBorrar {
+   position: absolute;
+   right: 0;
+   width: 30%;
+   height: 100%;
+   background-color: #BEB9B5;
+}
+
+#botonMas {
+   background-color: #BEB9B5;
+   text-align: center;
+   margin-top: 10%;
+   margin-right: 5%;
+}
+
+#botonMenos {
+   background-color: #BEB9B5;
+   text-align: center;
+   margin-top: 10%;
+   margin-right: 5%;
+}
+
+
+.footer {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   height: 25%;
+   background-color: #74828F;
+}
+
